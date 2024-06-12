@@ -1,4 +1,4 @@
-ame: cfn-policy-validator-workflow
+name: cfn-policy-validator-workflow
 
 on:
   pull_request:

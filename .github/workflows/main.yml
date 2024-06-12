@@ -45,4 +45,4 @@ jobs:
           template-path: './sample-role.yaml'
           reference-policy: './reference-identity-policy.json'
           reference-policy-type: "IDENTITY"
-          region: <AWSRegion>
+          region: us-east-2

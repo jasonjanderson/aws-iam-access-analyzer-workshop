@@ -9,7 +9,7 @@
         {
             "Effect": "Deny",
             "Action": "sts:PassRole",
-            "Resource": "arn:aws:s3:::my-sensitive-bucket"
+            "Resource": "arn:aws:iam::*:role/my-sensitive-roles/adminrole452"
         }
     ]
 }

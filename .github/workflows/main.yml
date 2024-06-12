@@ -13,7 +13,7 @@ name: Validate AWS IAM policies in CloudFormation templates using Policy Validat
 on:
   workflow_dispatch:
   push:
-    branches: [$default-branch, $protected-branches]
+    branches: [main]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [$default-branch]

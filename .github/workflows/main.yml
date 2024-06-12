@@ -11,6 +11,7 @@
 # 4. Start using the GitHub actions by generating the GitHub events matching the defined criteria in your workflow.
 name: Validate AWS IAM policies in CloudFormation templates using Policy Validator
 on:
+  workflow_dispatch:
   push:
     branches: [$default-branch, $protected-branches]
   pull_request:
